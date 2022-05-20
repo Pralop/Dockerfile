@@ -9,6 +9,4 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo chmod 666 /var/run/docker.sock
 sudo chown ec2-user /var/run/docker.sock
 echo "Install Docker-Compose completed"
-sudo yum install git -y
-echo "Install git completed"
 echo "Please run docker info and docker-compose --version for check version and service after install"
